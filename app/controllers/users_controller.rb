@@ -41,7 +41,7 @@ def destroy
   @user = User.find(params[:id])
   @user.destroy
   flash[:success] = "ユーザー「#{@user.name}」を削除しました ﾟ(ﾟ´Д｀ﾟ)ﾟ。"
-  redirect_to root
+  redirect_to user_url
 end
 
 private

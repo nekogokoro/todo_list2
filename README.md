@@ -32,8 +32,7 @@ Things you may want to cover:
 
  
 # URL
- https://todo-app-ver-10.herokuapp.com/
-
+ 
 # Test account
 メールアドレス "test@mail.com"/password "test"/ユーザーネーム "ゲスト"
 # GIF & Explanation
@@ -82,10 +81,56 @@ Things you may want to cover:
 - belongs_to :user
 - has_one_attached :image
 
+# 要件定義
+https://docs.google.com/spreadsheets/d/107NbEIEuYDVWR3PtmPB1vJHfzyITysngYkEB9VY-hUI/edit#gid=60957725
+
+# GIF & 説明文
+ユーザーのログイン機能
+https://gyazo.com/7c50618a5c1909edf4e9e2247237fd54
+
+ログアウト機能
+https://gyazo.com/f1050a0a16e06f0ca564175de432a166
+
+新規登録
+https://gyazo.com/0121c0995dc73e482ca5483e290f1012
+
+一覧表示機能
+https://gyazo.com/2922910ba0bf362762f928d0328c5230
+
+編集機能
+https://gyazo.com/053aee08752fbbd73762a6a87efc1077
+
+
+削除機能
+https://gyazo.com/be2528eba8bf5eda55319307a5c9b2b0
+ 
+-------------------------------------------------- 
+タスクの新規登録
+https://gyazo.com/3daf6b278b0a52d807a0ec08a4a4ac48
+
+一覧表示機能
+https://gyazo.com/cdc425e63c3574acf4b1f7a77fe9e85e
+
+編集機能
+https://gyazo.com/cba3a6212bfdff6e3721d964c94f3920
+
+削除機能
+https://gyazo.com/8515a65a86059ceaa2b660c394603e85
+
+検索機能
+https://gyazo.com/4564067423878195b749d53515dac375
+
+
+
+タスクの振り分け機能
+https://gyazo.com/ade17fbac0c7522f0165fd78bb5fe53f
+
+
+
+# ER図
+https://gyazo.com/25410d80e1ad44f33d11ec56b050aeac
+
 # Requirement
- 
-動かすのに必要なライブラリなどを列挙する
- 
 * huga 3.5.2
 * hogehuga 1.0.2
  

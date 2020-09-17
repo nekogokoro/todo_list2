@@ -1,16 +1,9 @@
 ja:
-
   time:
-      formats:
-        default: "%Y年%m月%d日"
-        
+    formats:
+      default: "%Y年%m月%d日"
+
   activerecord:
-    models:
-      task: タスク
-    attributes:
-      task:
-        title: タイトル
-        description: 詳しい説明
     models:
       user: ユーザー
     attributes:
@@ -18,6 +11,12 @@ ja:
         name: 名前
         email: メルアド
         password: パスワード
-
-    
-
+  activerecord:
+    models:
+      task: タスク
+    attributes:
+      task:
+        title: タイトル
+        description: 詳しい説明
+        deadline: 期限日
+        
