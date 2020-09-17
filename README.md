@@ -24,7 +24,7 @@ Things you may want to cover:
 * ...
 
 # Name
- "First_ToDo"
+ "Minima ToDo"
  
  ＊ToDoの一覧表示、新規登録、編集、更新、詳細表示、削除、検索、画像添付、期限日の指定
  ＊ユーザーのログイン、新規登録、一覧表示、編集、更新、詳細表示、削除
@@ -33,7 +33,7 @@ Things you may want to cover:
  
 # URL
  https://todo-app-ver-11.herokuapp.com/
- 
+
 # Test account
 メールアドレス "test@mail.com"/password "test"/ユーザーネーム "ゲスト"
 # GIF & Explanation
