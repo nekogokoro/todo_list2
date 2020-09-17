@@ -32,6 +32,7 @@ Things you may want to cover:
 
  
 # URL
+ https://todo-app-ver-11.herokuapp.com/
  
 # Test account
 メールアドレス "test@mail.com"/password "test"/ユーザーネーム "ゲスト"
