@@ -8,22 +8,10 @@
 User.create!(
   [
     {
-      name: 'panda',
-      email: 'panda@example',
-      password: 'password',
-      password_confirmation: 'password',
-    },
-    {
-      name: 'rakuda',
-      email: 'rakuda@example.com',
-      password: 'password',
-      password_confirmation: 'password'
-    },
-    {
-      name: 'tamanegi',
-      email: 'tamanegi@example.com',
-      password: 'password',
-      password_confirmation: 'password'
+      name: 'ゲスト',
+      email: 'test@mail.com',
+      password: 'test',
+      password_confirmation: 'test',
     },
   ]
 )
