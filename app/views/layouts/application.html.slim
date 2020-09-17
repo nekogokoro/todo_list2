@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title
+      | TodoApp
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+    = render 'layouts/datepicker' 
+  body
+    = render 'layouts/header'
+    .container
+      - flash.each do |message_type, message|
+        = content_tag(:div, message, class: "alert alert-#{message_type}")
+      = yield
+      

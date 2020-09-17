@@ -1,0 +1,29 @@
+- if task.errors.any?
+  div#error_explanation
+    .alert.alert-danger
+      = "#{task.errors.count}種類のエラーがあります!! (*ﾟε´*)ﾌﾟｩ"
+      ul
+        - task.errors.full_messages.each do |message|
+          li = message
+
+= form_with model: @task, local: true do |f|  
+  .form-check.mb-2
+    = f.label :done, class: 'form-check-label' do
+      = f.check_box :done, class: 'form-check-input'
+      | 完了済み
+  .form-group
+    = f.label :title, 'タイトル'
+    = f.text_field :title, class: 'form-control', id: 'task_title'
+  .form-group
+    = f.label :description, '詳細'
+    = f.text_area :description, class: 'form-control', id: 'task_description'
+  .form-group
+    = f.label :image, '画像'
+    = f.file_field :image, class: 'form-control', id: 'task_image'
+
+  .form-group
+    = f.label :deadline, '期限日'
+    = f.text_field :deadline, class: 'form-control result', id: 'date'
+    .row.justify-content-center
+
+  = f.submit '登録', class: 'btn btn-success'

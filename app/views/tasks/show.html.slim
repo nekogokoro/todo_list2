@@ -1,0 +1,31 @@
+.nav.justify-content-end
+
+  - if @task.done?
+    = link_to 'Done一覧', done_tasks_path, class: 'nav-link'
+  - else
+    = link_to 'Todo一覧', todo_tasks_path, class: 'nav-link'
+
+table.table.table-hover
+  tbody
+    tr
+      th タイトル
+      td = @task.title
+    tr
+      th 内容
+      td = @task.description
+    tr
+      th 画像
+      td = image_tag @task.image if @task.image.attached?
+    tr
+      th 期限日
+      td = @task. deadline
+
+    tr
+      th 登録日
+      td = @task.created_at
+    tr
+      th 更新日
+      td = @task.updated_at
+
+= link_to '編集', edit_task_path, class: 'btn btn-primary mr-3'
+= link_to '削除', @task, method: :delete, data: { confirm: "タスク「#{@task.title}」を削除します。よろしいですか？" }, class: 'btn btn-danger'
