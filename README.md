@@ -131,17 +131,10 @@ https://gyazo.com/ade17fbac0c7522f0165fd78bb5fe53f
 # ER図
 https://gyazo.com/25410d80e1ad44f33d11ec56b050aeac
 
-# Requirement
-* huga 3.5.2
-* hogehuga 1.0.2
- 
-# Installation
- 
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
-```bash
-pip install huga_package
-```
+# Development environment
+* Ruby  2.6.5
+* Rails 6.0.0
+
  
 
 
