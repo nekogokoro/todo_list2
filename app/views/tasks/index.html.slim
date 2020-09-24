@@ -1,7 +1,7 @@
 ul.nav.nav-tabs.mb-3
   li.nav-item = link_to '新規登録', new_task_path, class: 'nav-link'
   li.nav-item = link_to 'Todoリスト', todo_tasks_path, class: 'nav-link'
-  li.nav-item = link_to 'Doneリスト', done_tasks_path, class: 'nav-link'
+  li.nav-item = link_to '完了済みリスト', done_tasks_path, class: 'nav-link'
 .row.justify-content-end
   = search_form_for @q do |f|
     .form-inline

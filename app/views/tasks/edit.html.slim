@@ -1,9 +1,9 @@
 
   .nav.justify-content-end
     - if @task.done?
-      = link_to 'Done一覧', done_tasks_path, class: 'nav-link'
+      = link_to '完了済み一覧', done_tasks_path, class: 'nav-link'
     - else
-      = link_to 'Todo一覧', todo_tasks_path, class: 'nav-link'
+      = link_to '未完了一覧', todo_tasks_path, class: 'nav-link'
 
   = render partial: 'form', locals: { task: @task }
 

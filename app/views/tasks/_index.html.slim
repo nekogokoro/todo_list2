@@ -22,7 +22,7 @@ table.table
   tbody
     - @tasks.each do |task|
       tr
-        td = task.done? ? 'Done' : 'Todo'
+        td = task.done? ? '完了済み' : '未完了'
         td = link_to task.title, task
         td = l task.created_at
         td = l task.updated_at
